@@ -1,0 +1,8 @@
+username = input('USERNAME ')
+password = input('PASSWORD ')
+if username == 'sb6677' and password == '0000':
+    print('Welcome You had succesfully Logged in')
+elif username == 'sb6677' or password == '0000':
+    print('Invalid Username or Password Reload and Try Again!!!')
+else :
+    print('Invalid User!!!')
